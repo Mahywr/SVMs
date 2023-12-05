@@ -74,11 +74,13 @@ public sealed class SvmVirtualMachine
     /// determine their order (ie. line number) in the 
     /// sequence of executing SML instructions
     /// </summary>
-    public int ProgramCounter
+    public int ProgramCounter             //TASK 1
     {
-        #region TASK 1 - TO BE IMPLEMENTED BY THE STUDENT
-        #endregion
-        get;
+        
+        get
+        {
+            return programCounter;
+        }
     }
     #endregion
 
